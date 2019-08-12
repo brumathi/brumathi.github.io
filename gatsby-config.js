@@ -1,12 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
+    title: `Brumathi`,
+    authors: {
+      'bcfurtado': {
+        avatar: 'https://avatars0.githubusercontent.com/u/1187535?s=460&v=4',
+        name: `Bruno Furtado`,
+        description: `Bruno should edit this`
+      },
+      'mauriciovieira': {
+        avatar: 'https://avatars2.githubusercontent.com/u/95258?s=460&v=4',
+        name: `Mauricio Vieira`,
+        shortBio: `lives in Salvador and owns omnicode.solutions`
+      },
+      'thicolares': {
+        avatar: 'https://avatars3.githubusercontent.com/u/849493?s=460&v=4',
+        name: `Thiago Colares`,
+        description: `Thiago should edit this`
+      }
     },
+    description: `Our group blog.`,
+    siteUrl: `https://brumathi.github.io/`
   },
   plugins: [
     {
