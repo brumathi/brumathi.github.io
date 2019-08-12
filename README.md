@@ -1,26 +1,34 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's blog starter
+  Brumathi
 </h1>
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+This project is based on gatsby blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Install git flow**
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+    Install [git-flow](https://danielkummer.github.io/git-flow-cheatsheet/) and setup this repo with default configuration, such as below
 
-    ```sh
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
+    ```bash
+git flow init
+
+Which branch should be used for bringing forth production releases?
+   - master
+Branch name for production releases: [master]
+Branch name for "next release" development: [develop]
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix? []
     ```
 
 1.  **Start developing.**
@@ -28,7 +36,6 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-blog-starter/
     gatsby develop
     ```
 
@@ -92,6 +99,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
+This blog will be deployed using travis-ci once it's ready.
 
-<!-- AUTO-GENERATED-CONTENT:END -->
